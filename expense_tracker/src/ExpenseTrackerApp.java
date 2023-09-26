@@ -28,6 +28,9 @@ public class ExpenseTrackerApp {
       double amount = view.getAmountField();
       String category = view.getCategoryField();
 
+      // Validate amount and category fields before adding transaction.
+      // If valid, create transaction object and call controller to add transaction.
+      // Else, do nothing.
       if (InputValidation.isValidAmount(amount) && InputValidation.isValidCategory(category)) {
           // Create transaction object
           Transaction t = new Transaction(amount, category);
