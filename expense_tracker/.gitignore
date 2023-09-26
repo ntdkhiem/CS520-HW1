@@ -1,11 +1,10 @@
 # Ignore build folders
-jdoc/
 bin/
 
 # Ignore config files
 application.properties
 
-# Ignore IDE files 
+# Ignore IDE files
 .idea/
 *.iml
 *.class
